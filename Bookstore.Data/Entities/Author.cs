@@ -1,6 +1,6 @@
 ﻿namespace Bookstore.Data;
 
-public class Author
+public class Author : IEntity
 {
     public int Id { get; set; }
     public string FirstName { get; set; } = string.Empty;
